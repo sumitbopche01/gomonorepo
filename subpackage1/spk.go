@@ -7,7 +7,7 @@ import (
 
 )
 
-func printPackage1(){
+func PrintPackage1(){
 	fmt.Println("Hello, world")
 
 	subpackage2.PrintPackage2()
