@@ -10,5 +10,5 @@ import (
 func printPackage1(){
 	fmt.Println("Hello, world")
 
-	printPackage2()
+	subpackage2.PrintPackage2()
 }
